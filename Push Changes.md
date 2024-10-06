@@ -21,3 +21,21 @@
   ```
 
   You will need to resolve any merge conflicts manually if they arise.
+
+3. **Push your changes after resolving conflicts (if any):**
+
+  ```bash
+  git push origin main
+  ```
+
+4. **Set default pull behavior:**
+
+- For rebase:
+  ```bash
+  git config pull.rebase true
+  ```
+
+- For merge:
+  ```bash
+  git config pull.rebase false
+  ```
