@@ -36,3 +36,11 @@ for file in $files; do
     fi
 done
 ```
+
+#### **3. Make the Script Executable**
+
+Make sure the `pre-commit` hook is executable:
+
+```bash
+chmod +x pre-commit
+```
