@@ -56,3 +56,14 @@ chmod +x pre-commit
 - **`echo "Sensitive data found in $file. Please remove before committing."`**: Displays a message if sensitive data is found.
 
 - **`exit 1`**: Exits with status code `1` to abort the commit if sensitive data is detected.
+
+
+#### **5. Benefits**
+
+- **Prevents Sensitive Data Leakage:** Ensures that sensitive information is not committed to the repository, reducing the risk of accidental exposure.
+
+- **Automates Security Checks:** Integrates security checks into the development workflow, improving overall code security.
+
+- **Customizable:** Allows you to tailor the patterns and checks according to your project's needs.
+
+With this setup, your Git pre-commit hook will help ensure that sensitive information is not accidentally committed to your repository.
