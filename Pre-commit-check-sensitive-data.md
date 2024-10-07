@@ -7,3 +7,13 @@
    ```bash
    cd .git/hooks
    ```
+   
+2. Create a file named `pre-commit` if it doesn't already exist:
+
+   ```bash
+   touch pre-commit
+   ```
+
+#### **2. Edit the `pre-commit` File**
+
+Open the `pre-commit` file in a text editor and add the following script:
