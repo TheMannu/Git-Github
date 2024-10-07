@@ -44,3 +44,15 @@ Make sure the `pre-commit` hook is executable:
 ```bash
 chmod +x pre-commit
 ```
+
+#### **4. Explanation of the Script**
+
+- **`pattern='password|secret_key|API_KEY'`**: Defines the search pattern for sensitive information. You can add or remove patterns as needed.
+
+- **`files=$(git diff --cached --name-only --diff-filter=ACM)`**: Lists all staged files that have been added (`A`), copied (`C`), or modified (`M`).
+
+- **`grep -qE "$pattern" "$file"`**: Searches for the defined pattern in each staged file. The `-q` option suppresses output, and `-E` enables extended regex patterns.
+
+- **`echo "Sensitive data found in $file. Please remove before committing."`**: Displays a message if sensitive data is found.
+
+- **`exit 1`**: Exits with status code `1` to abort the commit if sensitive data is detected.
