@@ -42,3 +42,33 @@ Use the following command to lint only the staged Python files (`*.py` files) be
 files=$(git diff --cached --name-only --diff-filter=ACM | grep '\.py$')
 flake8 $files
 ```
+
+#### **3. Automate Linting with a Git Pre-Commit Hook**
+
+To automatically run `flake8` on staged files before each commit, set up a Git pre-commit hook:
+
+1. **Create the Pre-Commit Hook File:**
+
+   ```bash
+   touch .git/hooks/pre-commit
+   ```
+
+2. **Edit the `pre-commit` File:**
+
+   Add the following script to the file:
+
+   ```bash
+   #!/bin/sh
+
+   files=$(git diff --cached --name-only --diff-filter=ACM | grep '\.py$')
+
+   if [ -n "$files" ]; then
+       echo "Running flake8 on staged Python files..."
+       flake8 $files
+
+       if [ $? -ne 0 ]; then
+           echo "flake8 failed. Commit aborted."
+           exit 1
+       fi
+   fi
+   ```
