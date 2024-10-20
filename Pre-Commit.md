@@ -32,3 +32,13 @@ Verify the installation:
 ```bash
 flake8 --version
 ```
+
+
+#### **2. Check Staged Python Files with `flake8`**
+
+Use the following command to lint only the staged Python files (`*.py` files) before committing:
+
+```bash
+files=$(git diff --cached --name-only --diff-filter=ACM | grep '\.py$')
+flake8 $files
+```
