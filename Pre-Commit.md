@@ -72,3 +72,16 @@ To automatically run `flake8` on staged files before each commit, set up a Git p
        fi
    fi
    ```
+
+3. **Make the Script Executable:**
+
+   ```bash
+   chmod +x .git/hooks/pre-commit
+   ```
+
+#### **4. Benefits of Using `flake8`**
+
+- **Code Quality:** Enforces PEP 8 coding standards, leading to cleaner and more readable code.
+- **Error Detection:** Identifies syntax errors, undefined names, and unused imports before they become runtime issues.
+- **Consistency:** Ensures uniform code style across the project, facilitating easier code reviews and maintenance.
+- **Automation:** Integrates into Git hooks for automatic linting, preventing poorly styled or erroneous code from being committed.
