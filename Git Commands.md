@@ -21,3 +21,9 @@ git push
 - `git status`: Lists modified files and staged changes.
 
 - `git diff`: Shows file differences not yet staged. Use `git diff --staged` for staged changes.
+
+#### Example:
+```bash
+git status
+git diff --staged
+```
