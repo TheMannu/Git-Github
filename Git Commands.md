@@ -46,3 +46,14 @@ git add .
 git rm --cached unwanted-file.txt
 git rm old-file.txt
 ```
+
+### Committing Changes
+
+- `git commit -m "message"`: Commits staged changes with a message.
+
+- `git commit --amend`: Modify the last commit. *(Avoid if already pushed)*
+
+#### Example:
+```bash
+git commit -m "Initial commit"
+```
