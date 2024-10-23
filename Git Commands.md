@@ -39,3 +39,10 @@ git diff --staged
 - `git rm <filename>`: Removes `<filename>` from both the working directory and the staging area.
 
 - `git restore <filename>`: Restores the file to the last committed version, discarding any local changes.
+
+#### Example:
+```bash
+git add .
+git rm --cached unwanted-file.txt
+git rm old-file.txt
+```
