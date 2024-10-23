@@ -27,3 +27,15 @@ git push
 git status
 git diff --staged
 ```
+
+### Adding & Removing Files
+
+- `git add <filename>`: Stages the `<filename>` for commit.
+
+- `git add .`: Stages all changes in the directory for commit.
+
+- `git rm --cached <filename>`: Removes `<filename>` from the staging area without deleting it from the working directory.
+
+- `git rm <filename>`: Removes `<filename>` from both the working directory and the staging area.
+
+- `git restore <filename>`: Restores the file to the last committed version, discarding any local changes.
