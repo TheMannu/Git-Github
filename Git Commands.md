@@ -57,3 +57,13 @@ git rm old-file.txt
 ```bash
 git commit -m "Initial commit"
 ```
+
+### Viewing History
+
+- `git log`: Displays the full commit history.
+
+- `git log --oneline`: Shows commit history in one-line summaries.
+
+- `git log -G "search-string"`: Searches for a specific string in the commit history.
+
+- To exit the `git log`, press `q`.
