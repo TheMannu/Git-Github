@@ -90,3 +90,10 @@ git log -G "fix bug"
 - `git checkout -b <branch-name>`: Creates a new branch and switches to it.
 
 - `git branch -d <branch-name>`: Deletes the specified branch.
+
+#### Example:
+```bash
+git branch master
+git checkout -b feature/new-feature
+git switch master
+```
