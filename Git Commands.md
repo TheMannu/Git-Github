@@ -74,3 +74,19 @@ git log
 git log --oneline
 git log -G "fix bug"
 ```
+
+### Branching
+
+- `git branch`: Lists all branches.
+
+- `git branch <branch-name>`: Creates a new branch without switching to it.
+
+- `git branch master`: Creates a new `master` branch.
+
+- `git switch <branch-name>`: Switches to the specified branch (recommended instead of `git checkout`).
+
+- `git checkout <branch-name>`: Switches to the specified branch.
+
+- `git checkout -b <branch-name>`: Creates a new branch and switches to it.
+
+- `git branch -d <branch-name>`: Deletes the specified branch.
