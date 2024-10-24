@@ -97,3 +97,19 @@ git branch master
 git checkout -b feature/new-feature
 git switch master
 ```
+
+### Working with Remote Repositories
+
+- `git remote -v`: Displays remote repository URLs.
+
+- `git remote add <remote-name> <url>`: Adds a new remote repository.
+
+- `git remote remove <remote>`: Removes the specified remote repository.
+
+- `git remote set-url origin <new-url>`: Changes the remote URL for `origin`.
+
+- `git fetch <remote>`: Fetches changes from a remote without merging.
+
+- `git pull <remote> <branch>`: Fetches and merges changes from the remote branch.
+
+- `git push <remote> <branch>`: Pushes local changes to the remote branch.
