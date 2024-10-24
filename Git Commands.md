@@ -67,3 +67,10 @@ git commit -m "Initial commit"
 - `git log -G "search-string"`: Searches for a specific string in the commit history.
 
 - To exit the `git log`, press `q`.
+
+#### Example:
+```bash
+git log
+git log --oneline
+git log -G "fix bug"
+```
