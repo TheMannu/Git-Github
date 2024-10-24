@@ -113,3 +113,10 @@ git switch master
 - `git pull <remote> <branch>`: Fetches and merges changes from the remote branch.
 
 - `git push <remote> <branch>`: Pushes local changes to the remote branch.
+
+#### Example:
+```bash
+git remote add origin https://github.com/username/repo.git
+git remote set-url origin http://token@github.com/username/repo.git
+git push origin master
+```
