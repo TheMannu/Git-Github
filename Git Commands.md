@@ -120,3 +120,11 @@ git remote add origin https://github.com/username/repo.git
 git remote set-url origin http://token@github.com/username/repo.git
 git push origin master
 ```
+
+### Merging & Rebasing
+
+- `git merge <branch-name>`: Merges `<branch-name>` into the current branch.
+
+- `git rebase <branch-name>`: Re-applies commits from the current branch on top of `<branch-name>`.
+
+- `git pull origin master --rebase`: Fetches and rebases changes from the `master` branch.
