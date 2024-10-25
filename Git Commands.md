@@ -150,3 +150,13 @@ git pull origin master --rebase
 ```bash
 git rebase --continue
 ```
+
+### Undoing Changes
+
+- `git restore <filename>`: Restores the file to the last committed version.
+
+- `git reset --hard HEAD`: Discards all local changes.
+
+- `git checkout HEAD <file-name>`: Reverts changes in a specific file to the last commit.
+
+- `git reset <commit>`: Resets to a previous commit, preserving changes as unstaged.
