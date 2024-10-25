@@ -134,3 +134,14 @@ git push origin master
 git merge feature/new-feature
 git pull origin master --rebase
 ```
+
+### Handling Conflicts
+
+- `git mergetool`: Opens a merge tool to resolve conflicts.
+
+- `git add <file>`: Marks a conflict as resolved after manual editing.
+
+- `git rebase --continue`: Continues a rebase after resolving conflicts.
+
+- `git rebase --abort`: Cancels an ongoing rebase.
+
