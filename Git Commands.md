@@ -145,3 +145,8 @@ git pull origin master --rebase
 
 - `git rebase --abort`: Cancels an ongoing rebase.
 
+
+#### Example:
+```bash
+git rebase --continue
+```
