@@ -160,3 +160,8 @@ git rebase --continue
 - `git checkout HEAD <file-name>`: Reverts changes in a specific file to the last commit.
 
 - `git reset <commit>`: Resets to a previous commit, preserving changes as unstaged.
+
+#### Example:
+```bash
+git reset --hard HEAD
+```
