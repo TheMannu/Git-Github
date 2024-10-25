@@ -128,3 +128,9 @@ git push origin master
 - `git rebase <branch-name>`: Re-applies commits from the current branch on top of `<branch-name>`.
 
 - `git pull origin master --rebase`: Fetches and rebases changes from the `master` branch.
+
+#### Example:
+```bash
+git merge feature/new-feature
+git pull origin master --rebase
+```
