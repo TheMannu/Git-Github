@@ -185,3 +185,15 @@ git tag v1.0.0
 ```bash
 git push origin --delete feature/new-feature
 ```
+
+### Hooks
+
+- `vim .git/hooks/pre-commit`: Opens the pre-commit hook file for editing.
+
+- `chmod +x .git/hooks/pre-commit`: Makes the hook executable.
+
+#### Example:
+```bash
+vim .git/hooks/pre-commit
+chmod +x .git/hooks/pre-commit
+```
