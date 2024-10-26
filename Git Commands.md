@@ -165,3 +165,9 @@ git rebase --continue
 ```bash
 git reset --hard HEAD
 ```
+
+### Tags
+
+- `git tag <tag-name>`: Tags the current commit.
+
+- `git push --tags`: Pushes all tags to the remote.
