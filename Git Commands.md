@@ -176,3 +176,12 @@ git reset --hard HEAD
 ```bash
 git tag v1.0.0
 ```
+
+### Deleting Remote Branches
+
+- `git push origin --delete <branch-name>`: Deletes a remote branch.
+
+#### Example:
+```bash
+git push origin --delete feature/new-feature
+```
