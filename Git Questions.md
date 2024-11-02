@@ -48,3 +48,12 @@
 
 15. **How do you stage files for a commit?**
     - Use `git add <file-or-directory>` to move changes from the working directory to the staging area.
+
+16. **What is the purpose of `git add`?**
+    - It adds changes to the staging area, preparing them for the next commit.
+
+17. **How do you view the commit history?**
+    - Use `git log` to view the list of past commits, with details like author, commit message, and timestamp.
+
+18. **What is the difference between `git pull` and `git fetch`?**
+    - `git pull` fetches changes and merges them, while `git fetch` only downloads the changes without merging.
