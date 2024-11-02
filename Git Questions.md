@@ -21,3 +21,12 @@
 
 6. **How do you clone a repository?**
    - Run `git clone <repository-url>` to copy a repository from a remote server to your local machine.
+
+7. **What is a branch in Git?**
+   - A branch is a movable pointer to a specific commit, allowing independent development paths within the repository.
+
+8. **How do you create a new branch?**
+   - Use `git branch <branch-name>` to create a branch, or `git checkout -b <branch-name>` to create and switch to the branch.
+
+9. **How do you switch between branches?**
+   - Use `git checkout <branch-name>` to switch to the desired branch.
