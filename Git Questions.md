@@ -30,3 +30,12 @@
 
 9. **How do you switch between branches?**
    - Use `git checkout <branch-name>` to switch to the desired branch.
+
+10. **What is the difference between `git merge` and `git rebase`?**
+    - `git merge` combines branches by creating a new commit, while `git rebase` moves or integrates commits from one branch onto another without creating additional commits.
+
+11. **How do you delete a branch?**
+    - Use `git branch -d <branch-name>` to delete a branch locally, or `git branch -D <branch-name>` to forcefully delete it.
+
+12. **What is a commit in Git?**
+    - A commit is a snapshot of changes made in the repository at a specific point in time.
