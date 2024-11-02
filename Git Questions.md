@@ -39,3 +39,12 @@
 
 12. **What is a commit in Git?**
     - A commit is a snapshot of changes made in the repository at a specific point in time.
+
+13. **How do you make a commit?**
+    - Stage changes and use `git commit -m "commit message"` to save them in the repository.
+
+14. **What is a staging area or index in Git?**
+    - The staging area is a buffer zone where changes are prepared before committing them to the repository.
+
+15. **How do you stage files for a commit?**
+    - Use `git add <file-or-directory>` to move changes from the working directory to the staging area.
