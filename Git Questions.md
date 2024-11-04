@@ -57,3 +57,9 @@
 
 18. **What is the difference between `git pull` and `git fetch`?**
     - `git pull` fetches changes and merges them, while `git fetch` only downloads the changes without merging.
+
+19. **How do you undo a commit?**
+    - Use `git revert <commit>` to create a new commit that undoes the previous one, or `git reset <commit>` to roll back to a specific commit.
+
+20. **What is a merge conflict and how do you resolve it?**
+    - A merge conflict occurs when changes in different branches overlap. To resolve, manually edit the conflicting files, stage them, and commit the changes.
