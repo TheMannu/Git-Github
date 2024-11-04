@@ -75,3 +75,12 @@
 
 23. **What is `git cherry-pick` and when would you use it?**
     - `git cherry-pick` applies a specific commit from another branch to your current branch. It is used when you want to include individual changes from other branches.
+
+24. **How do you configure a Git repository to ignore certain files?**
+    - Create a `.gitignore` file and specify file patterns or directories to exclude from version control.
+
+25. **What is `git tag` and how do you create a tag?**
+    - A Git tag marks a specific point in the commit history. Create a tag using `git tag <tag-name>`.
+
+26. **How do you view all tags in a repository?**
+    - Use `git tag` to list all tags in the repository.
