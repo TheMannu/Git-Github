@@ -84,3 +84,12 @@
 
 26. **How do you view all tags in a repository?**
     - Use `git tag` to list all tags in the repository.
+
+27. **What is `git blame` and how is it useful?**
+    - `git blame` shows which author made changes to each line of a file, useful for tracking down the origin of code or changes.
+
+28. **What is the purpose of `.gitignore`?**
+    - It is used to define files or directories that Git should not track or include in version control.
+
+29. **How do you remove a file from the staging area?**
+    - Use `git reset <file>` to unstage a file, keeping it in the working directory.
