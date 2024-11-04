@@ -63,3 +63,15 @@
 
 20. **What is a merge conflict and how do you resolve it?**
     - A merge conflict occurs when changes in different branches overlap. To resolve, manually edit the conflicting files, stage them, and commit the changes.
+
+---
+### **Intermediate Git Questions**
+---
+21. **What is `git stash` and how is it used?**
+    - `git stash` temporarily saves changes that are not ready to be committed. Use `git stash` to store them and `git stash apply` or `git stash pop` to retrieve them.
+
+22. **How do you apply a stashed change?**
+    - Use `git stash apply` to reapply the stash without deleting it, or `git stash pop` to apply and remove the stash.
+
+23. **What is `git cherry-pick` and when would you use it?**
+    - `git cherry-pick` applies a specific commit from another branch to your current branch. It is used when you want to include individual changes from other branches.
