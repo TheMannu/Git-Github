@@ -102,3 +102,12 @@
 
 32. **What is the difference between `git reset` and `git revert`?**
     - `git reset` moves the branch pointer and modifies the working directory, while `git revert` creates a new commit that undoes previous changes.
+
+33. **How do you amend the most recent commit?**
+    - Use `git commit --amend` to modify the previous commit, either by changing the commit message or adding new changes.
+
+34. **How do you set up a remote repository?**
+    - Use `git remote add <name> <url>` to add a remote repository for collaboration.
+
+35. **What is `git remote` and how do you use it?**
+    - `git remote` manages the set of remote repositories associated with your project. Use `git remote add`, `git remote remove`, etc., to manage them.
