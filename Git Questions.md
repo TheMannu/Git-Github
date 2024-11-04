@@ -93,3 +93,12 @@
 
 29. **How do you remove a file from the staging area?**
     - Use `git reset <file>` to unstage a file, keeping it in the working directory.
+
+30. **What is `git bisect` and how is it used?**
+    - `git bisect` performs a binary search through commit history to find the commit that introduced a bug. Run `git bisect start` to begin.
+
+31. **How do you rebase a branch?**
+    - Use `git rebase <base-branch>` to apply your current branch's changes onto another branch.
+
+32. **What is the difference between `git reset` and `git revert`?**
+    - `git reset` moves the branch pointer and modifies the working directory, while `git revert` creates a new commit that undoes previous changes.
