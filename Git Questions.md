@@ -141,3 +141,9 @@
 
 44. **How do you handle Git hooks?**
     - Git hooks are scripts placed in the `.git/hooks` directory that trigger actions at various points in Git operations (e.g., pre-commit, post-merge).
+
+45. **What is `git filter-branch` used for?**
+    - It rewrites Git history by applying filters to each commit in a branch, useful for tasks like removing sensitive data from history.
+
+46. **How do you set up Git to handle large files (e.g., using Git LFS)?**
+    - Install Git LFS using `git lfs install`, and then track specific files with `git lfs track <file>`.
