@@ -117,3 +117,9 @@
 
 37. **What is `git log` and how can you customize its output?**
     - `git log` shows the commit history, and you can customize the output using options like `--oneline`, `--graph`, and `--decorate` for a cleaner, visual history.
+
+38. **How do you use `git diff` to view changes?**
+    - Use `git diff` to view differences between commits, branches, or the working directory and the staging area.
+
+39. **What is `git submodule` and how do you manage it?**
+    - A submodule allows you to include one Git repository inside another. Use `git submodule add <repo-url>` to add it and manage it with regular Git commands.
