@@ -123,3 +123,8 @@
 
 39. **What is `git submodule` and how do you manage it?**
     - A submodule allows you to include one Git repository inside another. Use `git submodule add <repo-url>` to add it and manage it with regular Git commands.
+
+40. **How do you squash commits?**
+    - Use `git rebase -i` for interactive rebase, marking unwanted commits with `squash` to combine them into one.
+
+---
