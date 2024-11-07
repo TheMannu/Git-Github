@@ -111,3 +111,9 @@
 
 35. **What is `git remote` and how do you use it?**
     - `git remote` manages the set of remote repositories associated with your project. Use `git remote add`, `git remote remove`, etc., to manage them.
+
+36. **How do you remove a remote repository?**
+    - Use `git remote remove <name>` to delete a remote repository configuration.
+
+37. **What is `git log` and how can you customize its output?**
+    - `git log` shows the commit history, and you can customize the output using options like `--oneline`, `--graph`, and `--decorate` for a cleaner, visual history.
