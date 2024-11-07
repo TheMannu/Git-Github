@@ -135,3 +135,9 @@
 
 42. **How do you handle large binary files in Git?**
     - Use Git LFS (Large File Storage) to track large files efficiently.
+
+43. **What is the difference between `origin` and `upstream` in Git?**
+    - `origin` refers to the default remote repository, typically your clone. `upstream` is usually the original repository from which your project was forked.
+
+44. **How do you handle Git hooks?**
+    - Git hooks are scripts placed in the `.git/hooks` directory that trigger actions at various points in Git operations (e.g., pre-commit, post-merge).
