@@ -128,3 +128,10 @@
     - Use `git rebase -i` for interactive rebase, marking unwanted commits with `squash` to combine them into one.
 
 ---
+### **Advanced Git Questions**
+---
+41. **What is the difference between `git stash pop` and `git stash apply`?**
+    - `git stash pop` applies and removes the stash, while `git stash apply` only applies the stash but keeps it for later use.
+
+42. **How do you handle large binary files in Git?**
+    - Use Git LFS (Large File Storage) to track large files efficiently.
