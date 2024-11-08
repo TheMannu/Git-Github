@@ -153,3 +153,11 @@
 
 48. **How do you integrate Git with CI/CD tools?**
     - Set up CI/CD pipelines in tools like Jenkins, GitHub Actions, or
+
+ Travis CI to automate testing, deployment, and other workflows based on Git commits and branches.
+
+49. **What is `git gc` and when should you use it?**
+    - `git gc` cleans up unnecessary files and optimizes the local repository by running garbage collection.
+
+50. **What are `git hooks` and how are they useful?**
+    - Git hooks are customizable scripts that can be triggered before or after Git commands like `commit`, `push`, or `merge`, useful for enforcing coding standards or automating tasks.
