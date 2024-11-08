@@ -147,3 +147,9 @@
 
 46. **How do you set up Git to handle large files (e.g., using Git LFS)?**
     - Install Git LFS using `git lfs install`, and then track specific files with `git lfs track <file>`.
+
+47. **What is `git reflog` and how is it useful?**
+    - `git reflog` shows a log of all reference updates, making it helpful for recovering lost commits or branches.
+
+48. **How do you integrate Git with CI/CD tools?**
+    - Set up CI/CD pipelines in tools like Jenkins, GitHub Actions, or
