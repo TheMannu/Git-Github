@@ -74,10 +74,18 @@
 
 7. **To Add/Remove a remote connection**
 
+   - git remote add <Connection Name> <Github URL>
+
    ```bash
-   git remote add <Connection Name> <Github URL>
+   git remote add origin <Github URL>
+   ```
+
+   - git remote rm <Connection Name>
+
+   ```bash
+   git remote rm origin 
    ```
 
    ```bash
-   git remote rm <Connection Name> 
+   git remote -v  # to Check all remote connections 
    ```
