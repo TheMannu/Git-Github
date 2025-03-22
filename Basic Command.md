@@ -7,6 +7,16 @@
    git config --global user.email snsb.mahi@gmail.com
    ```
 
+   **To check The ORIGIN connection**
+   ```bash
+   git remote -v
+   ```
+
+   **To change the DEFAULT Coonection name From ORIGIN to Something Else**
+   ```bash
+   git remote rename origin newName
+   ```
+
 2. **Create a new repository and push changes:**
 
    ```bash
@@ -44,4 +54,20 @@
 
    ```bash
    git show <commit id> # to show details of specific Commits ID 
+   ```
+
+5. **Create branch, checkout and create PULL REQUEST**
+
+6. **PULL and PUSH**
+
+   - git pull <Connection Name> <Branch Name>
+
+   ```bash
+   git pull origin main
+   ```
+
+   - git pull <Connection Name> <Branch Name>
+
+   ```bash
+   git push origin main
    ```
