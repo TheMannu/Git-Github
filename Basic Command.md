@@ -71,3 +71,9 @@
    ```bash
    git push origin main
    ```
+
+7. **To add a remote connection**
+
+```bash
+git remote add <Connection Name> <Github URL>
+```
