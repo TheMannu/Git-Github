@@ -37,3 +37,11 @@
    ```bash
    git log --oneline # to show History Of Commits in One Line
    ```
+
+   ```bash
+   git log --graph --oneline # to show History Of Commits on different brances in graphical manner
+   ```
+
+   ```bash
+   git show <commit id> # to show details of specific Commits ID 
+   ```
