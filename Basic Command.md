@@ -10,11 +10,12 @@
 2. **Create a new repository and push changes:**
 
    ```bash
-   echo "# cloudweb for my first application" >> README.md
+   echo "cloudweb for my first application" >> README.md
    git init
    git status
-   git add README.md
-   git commit -m "first commit"
+   git add README.md # to move the changes in file to staging area
+   git commit -m "first commit" # to move the from staging area to.git directory
+
    git branch -M main
    git remote add origin https://github.com/vikas4cloud/cloudweb.git
    git push -u origin main
@@ -26,4 +27,13 @@
    git add *
    git commit -m "2nd commit"
    git push
+   ```
+4. **Git log & Git Show**
+
+   ```bash
+   git log # to show History Of Commits in details
+   ```
+
+   ```bash
+   git log --oneline # to show History Of Commits in One Line
    ```
