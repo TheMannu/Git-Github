@@ -72,8 +72,12 @@
    git push origin main
    ```
 
-7. **To add a remote connection**
+7. **To Add/Remove a remote connection**
 
-```bash
-git remote add <Connection Name> <Github URL>
-```
+   ```bash
+   git remote add <Connection Name> <Github URL>
+   ```
+
+   ```bash
+   git remote rm <Connection Name> 
+   ```
