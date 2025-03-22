@@ -85,7 +85,7 @@
    ```bash
    git remote rm origin 
    ```
-
+   To check all the connections available
    ```bash
    git remote -v  # to Check all remote connections 
    ```
