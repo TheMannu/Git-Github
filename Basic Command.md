@@ -28,7 +28,7 @@
 
    git branch -M main
    git remote add origin https://github.com/vikas4cloud/cloudweb.git
-   git push -u origin main
+   git push -u origin main 
    ```
 
 3. **Next time:**
@@ -63,8 +63,8 @@
 5. **Create branch, checkout, merge and create PULL REQUEST**
 
    - git branch <Branch Name>
-      ```bash
-   git branch feature1
+   ```bash
+   git branch feature1       # To create a New Branch
    ```
 
    - git checkout <Branch Name>
@@ -72,10 +72,16 @@
    git checkout feature1
    ```
 
+   - git branch <Branch Name>
+   ```bash
+   git checkout -b feature2       # To create a New Branch and also move to that branch
+   ```
+
    - git merge <Branch Name>
    ```bash
    git merge feature1  # First move to main branch and then run the merge command
    ```
+
 
 6. **PULL and PUSH**
 
