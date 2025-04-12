@@ -53,10 +53,14 @@
    ```
 
    ```bash
+   git log --graph --oneline --decorate # to show History Of Commits on different brances in graphical decorated manner
+   ``
+
+   ```bash
    git show <commit id> # to show details of specific Commits ID 
    ```
 
-5. **Create branch, checkout and create PULL REQUEST**
+5. **Create branch, checkout, merge and create PULL REQUEST**
 
    - git branch <Branch Name>
       ```bash
@@ -66,6 +70,11 @@
    - git checkout <Branch Name>
    ```bash
    git checkout feature1
+   ```
+
+   - git merge <Branch Name>
+   ```bash
+   git merge feature1  # First move to main branch and then run the merge command
    ```
 
 6. **PULL and PUSH**
