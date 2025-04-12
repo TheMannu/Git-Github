@@ -9,7 +9,7 @@
 
    **To check The ORIGIN connection**
    ```bash
-   git remote -v
+   git remote -v   # to Check all remote connections
    ```
 
    **To change the DEFAULT Coonection name From ORIGIN to Something Else**
@@ -23,7 +23,7 @@
    echo "cloudweb for my first application" >> README.md
    git init
    git status
-   git add README.md # to move the changes in file to staging area
+   git add < FileName > / git add .       # to move the changes in file to staging area
    git commit -m "first commit" # to move the from staging area to.git directory
 
    git branch -M main
@@ -85,7 +85,13 @@
    ```bash
    git remote rm origin 
    ```
-   To check all the connections available
+
+   - To check all the connections available
    ```bash
    git remote -v  # to Check all remote connections 
+   ```
+
+   - ORIGIN is default name for Connection But can be changed as per our requirement
+      ```bash
+   git remote rename origin newName 
    ```
