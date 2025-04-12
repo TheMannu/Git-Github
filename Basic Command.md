@@ -58,6 +58,16 @@
 
 5. **Create branch, checkout and create PULL REQUEST**
 
+   - git branch <Branch Name>
+      ```bash
+   git branch feature1
+   ```
+
+   - git checkout <Branch Name>
+   ```bash
+   git checkout feature1
+   ```
+
 6. **PULL and PUSH**
 
    - git pull <Connection Name> <Branch Name>
